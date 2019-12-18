@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4F4F4"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="198dp"
+        android:background="@color/colorPrimaryDark">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="145dp"
+            android:layout_marginLeft="8dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id='@+id/titlepage'
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:text="My Does"
+                android:textColor="#FFF"
+                android:textSize="36dp" />
+
+            <TextView
+                android:id='@+id/subtitlepage'
+                android:layout_width="253dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Finish then quickly today"
+
+                android:textColor="#f5f6fa"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnAddNew"
+            android:layout_width="62dp"
+            android:layout_height="62dp"
+            android:layout_marginLeft="-80dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/bgbtnnew"
+            android:text="+"
+            android:textAlignment="center"
+            android:textColor="#FFF"
+            android:textSize="38sp" />
+    </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="8dp"
+            android:background="#131E69" />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/ourdoes"
+        android:layout_width="match_parent"
+        android:layout_height="591dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="-60dp"
+        android:layout_marginRight="16dp"
+
+
+        >
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <TextView
+        android:id='@+id/endpage'
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="No more does"
+        android:textAlignment="center"
+        android:textColor="#9A9A9A"
+        android:textSize="16sp" />
+
+</LinearLayout>

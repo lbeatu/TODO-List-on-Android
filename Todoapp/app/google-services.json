@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "873522027309",
+    "firebase_url": "https://doesapp-44e4f.firebaseio.com",
+    "project_id": "doesapp-44e4f",
+    "storage_bucket": "doesapp-44e4f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:873522027309:android:cf260a439315425cfb51a4",
+        "android_client_info": {
+          "package_name": "com.example.todoapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "873522027309-ajnr5rdc9oj2enc7idjuv33gt5glcv71.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.todoapp",
+            "certificate_hash": "505a8c85267e7e81bbbdcb575a15aeb9215df3f8"
+          }
+        },
+        {
+          "client_id": "873522027309-978ddn9gge55jciq3buek8qourk1ke6g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAl-3UaYOfMALg3m1FFEDh3YZSLF6Q8A4g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "873522027309-978ddn9gge55jciq3buek8qourk1ke6g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
